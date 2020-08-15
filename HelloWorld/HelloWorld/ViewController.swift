@@ -9,6 +9,7 @@ class ViewController: UIViewController {
         
         label.text = "Hello World !!!!"
         label.font = label.font.withSize(40)
+        label.textAlignment = NSTextAlignment.center
         
         button.setTitle("ただいま", for: .normal)
         

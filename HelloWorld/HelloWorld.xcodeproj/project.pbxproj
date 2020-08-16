@@ -15,6 +15,7 @@
 		DEC4508D24E71E0400CD585B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC4508B24E71E0400CD585B /* LaunchScreen.storyboard */; };
 		DEC4509824E71E0400CD585B /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC4509724E71E0400CD585B /* HelloWorldTests.swift */; };
 		DEC450A324E71E0400CD585B /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC450A224E71E0400CD585B /* HelloWorldUITests.swift */; };
+		DEC450B124E91B0200CD585B /* id.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC450B024E91B0200CD585B /* id.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DEC4509E24E71E0400CD585B /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC450A224E71E0400CD585B /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		DEC450A424E71E0400CD585B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC450B024E91B0200CD585B /* id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = id.png; path = "../../../../../Creative Cloud Files/中間発表/id.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DEC4507F24E71E0100CD585B /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				DEC450B024E91B0200CD585B /* id.png */,
 				DEC4508024E71E0100CD585B /* AppDelegate.swift */,
 				DEC4508224E71E0100CD585B /* SceneDelegate.swift */,
 				DEC4508424E71E0100CD585B /* ViewController.swift */,
@@ -234,6 +237,7 @@
 			files = (
 				DEC4508D24E71E0400CD585B /* LaunchScreen.storyboard in Resources */,
 				DEC4508A24E71E0400CD585B /* Assets.xcassets in Resources */,
+				DEC450B124E91B0200CD585B /* id.png in Resources */,
 				DEC4508824E71E0100CD585B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

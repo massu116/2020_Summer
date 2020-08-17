@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE75B30A24EB17F700381EED /* id.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE75B30924EB17F700381EED /* id.mp3 */; };
 		DEC450BF24E944AB00CD585B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC450BE24E944AB00CD585B /* AppDelegate.swift */; };
 		DEC450C124E944AB00CD585B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC450C024E944AB00CD585B /* SceneDelegate.swift */; };
 		DEC450C324E944AB00CD585B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC450C224E944AB00CD585B /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE75B30924EB17F700381EED /* id.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = id.mp3; path = ../../../id.mp3; sourceTree = "<group>"; };
 		DEC450BB24E944AB00CD585B /* IDmovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDmovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC450BE24E944AB00CD585B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEC450C024E944AB00CD585B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		DEC450BD24E944AB00CD585B /* IDmovie */ = {
 			isa = PBXGroup;
 			children = (
+				DE75B30924EB17F700381EED /* id.mp3 */,
 				DEC450BE24E944AB00CD585B /* AppDelegate.swift */,
 				DEC450C024E944AB00CD585B /* SceneDelegate.swift */,
 				DEC450C224E944AB00CD585B /* ViewController.swift */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC450CB24E944AE00CD585B /* LaunchScreen.storyboard in Resources */,
+				DE75B30A24EB17F700381EED /* id.mp3 in Resources */,
 				DEC450C824E944AE00CD585B /* Assets.xcassets in Resources */,
 				DEC450C624E944AB00CD585B /* Main.storyboard in Resources */,
 			);

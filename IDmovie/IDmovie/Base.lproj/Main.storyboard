@@ -44,20 +44,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0w-cG-dQG">
-                                <rect key="frame" x="150" y="146" width="143" height="106"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsp-7h-ieM">
+                                <rect key="frame" x="124" y="152" width="167" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="startbutton:" destination="OcE-AS-zme" eventType="touchUpInside" id="rS9-Jt-rOW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ged-0c-zKB"/>
                     </view>
                     <navigationItem key="navigationItem" id="haq-ve-2VV"/>
                     <connections>
-                        <outlet property="nextLabel" destination="g0w-cG-dQG" id="EfP-Ix-1HT"/>
+                        <outlet property="startbutton" destination="Nsp-7h-ieM" id="Sye-va-bDc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3QA-B4-HBP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

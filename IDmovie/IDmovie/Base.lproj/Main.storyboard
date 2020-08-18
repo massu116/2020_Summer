@@ -44,9 +44,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsp-7h-ieM">
-                                <rect key="frame" x="124" y="152" width="167" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="id_2" translatesAutoresizingMaskIntoConstraints="NO" id="O4c-HT-KdO">
+                                <rect key="frame" x="37" y="80" width="340" height="274"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsp-7h-ieM">
+                                <rect key="frame" x="124" y="429" width="190" height="53"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="startbutton:" destination="OcE-AS-zme" eventType="touchUpInside" id="rS9-Jt-rOW"/>
@@ -54,10 +56,20 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ged-0c-zKB" firstAttribute="bottom" secondItem="Nsp-7h-ieM" secondAttribute="bottom" constant="326" id="GLf-Na-epn"/>
+                            <constraint firstItem="Ged-0c-zKB" firstAttribute="trailing" secondItem="O4c-HT-KdO" secondAttribute="trailing" constant="37" id="SuW-6g-I4A"/>
+                            <constraint firstItem="O4c-HT-KdO" firstAttribute="leading" secondItem="Ged-0c-zKB" secondAttribute="leading" constant="37" id="UF4-B5-0eP"/>
+                            <constraint firstItem="Ged-0c-zKB" firstAttribute="trailing" secondItem="Nsp-7h-ieM" secondAttribute="trailing" constant="100" id="eYW-ya-XSK"/>
+                            <constraint firstItem="Nsp-7h-ieM" firstAttribute="top" secondItem="O4c-HT-KdO" secondAttribute="bottom" constant="75" id="hBX-4Y-ihP"/>
+                            <constraint firstItem="O4c-HT-KdO" firstAttribute="top" secondItem="Ged-0c-zKB" secondAttribute="top" constant="80" id="oeI-XY-rJy"/>
+                            <constraint firstItem="Nsp-7h-ieM" firstAttribute="leading" secondItem="Ged-0c-zKB" secondAttribute="leading" constant="124" id="qQG-ph-t7H"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ged-0c-zKB"/>
                     </view>
                     <navigationItem key="navigationItem" id="haq-ve-2VV"/>
                     <connections>
+                        <outlet property="idPhoto" destination="Ghf-5G-pYT" id="xcT-3D-RHy"/>
                         <outlet property="startbutton" destination="Nsp-7h-ieM" id="Sye-va-bDc"/>
                     </connections>
                 </viewController>
@@ -66,4 +78,7 @@
             <point key="canvasLocation" x="923.1884057971015" y="112.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="id_2" width="238" height="320"/>
+    </resources>
 </document>

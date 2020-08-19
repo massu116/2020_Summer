@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         
     }
 
-
     @IBAction func tapbutton(_ sender: Any) {
         label.text = "おかえりI.D."
     }

@@ -28,7 +28,6 @@ class NextViewController: UIViewController {
         //initImageView()
         // Do any additional setup after loading the view.
         
-        
         do{
             musicPlayer = try AVAudioPlayer(contentsOf: path)
             musicPlayer.play()
